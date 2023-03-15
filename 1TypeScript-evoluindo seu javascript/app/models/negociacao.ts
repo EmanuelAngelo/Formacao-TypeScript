@@ -1,4 +1,3 @@
-
 export class Negociacao {
     private _data: Date;
     private _quantidade: number;
@@ -11,7 +10,7 @@ export class Negociacao {
     }
 
     get data(): Date {
-        return this._data
+        return this._data;
     }
 
     get quantidade(): number {
@@ -19,7 +18,7 @@ export class Negociacao {
     }
 
     get valor(): number {
-        return this._valor
+        return this._valor;
     }
 
     get volume(): number {
