@@ -12,5 +12,4 @@ export abstract class View<T> {
     }
 
     abstract template(model: T): string;
-
 }
